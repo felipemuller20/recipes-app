@@ -1,3 +1,36 @@
+.body {
+  background-color: #e5e5e5;
+}
+
+p {
+  color: black;
+  font-family: Noto Sans JP , sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #fca311;
+  bottom: 0;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  position: fixed;
+  width: 100vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+}
+
+header {
+  background-color: #fca311;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 4px;
+}
+
 .meals {
   align-items: center;
   background: #0fa36b;
@@ -10,24 +43,242 @@
   width: 100%;
 }
 
-.rocksGlass {
-  animation: shake 1s infinite ease;
-  max-height: 80vh;
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 5px;
+  width: 40vw;
 }
 
-/*
-#iceLeft {
-  animation: clink .8s infinite ease;
-  opacity: 0.6;
-  transform-origin: 36px 66px;
+.carousel-card > img {
+  border-radius: 0.6rem;
+  height: 200px;
+  object-fit: fill;
+  overflow: hidden;
+  width: 40vw;
 }
 
-#iceRight {
-  animation: clink .8s .2s infinite ease;
-  opacity: 0.6;
-  transform-origin: 60px 78px;
+.carousel-card > h3 {
+  overflow: hidden;
+  padding-bottom: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-*/
+
+.carousel-list {
+  display: flex;
+  margin: 10px 30px;
+  overflow-x: scroll;
+}
+
+.itensGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.start-recipe-btn {
+  background-color: rgb(238, 236, 236);
+  border: white;
+  border-radius: 10px;
+  bottom: 0;
+  box-shadow: 8px 5px 5px rgb(194, 190, 190);
+  height: 76px;
+  left: 11px;
+  position: fixed;
+  top: 543px;
+  width: 339px;
+}
+
+.itemCard {
+  background-color: white;
+  border: white;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px rgb(194, 190, 190);
+  color: black;
+  margin: 8px;
+  width: 161px;
+}
+
+.imgRecipes {
+  height: 109px;
+  margin-bottom: 30px;
+  width: 161px;
+}
+
+.imgRecipeFinished {
+  border-radius: 4px;
+  height: 151px;
+  margin-right: 5px;
+  width: 165px;
+}
+
+.cardsGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardRecipeFinished, .cardRecipeFavorited {
+  background-color: rgba(128, 128, 128, 0.027);
+  border: 1px solid rgba(0, 0, 0, 0.561);
+  border-radius: 4px;
+  box-shadow: 8px 5px 5px rgb(194, 190, 190);
+  display: flex;
+  height: 153px;
+  margin: 10px 6px;
+  width: 330px;
+}
+
+.cardRecipeFinished a h3, .cardRecipeFavorited a h3 {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.cardRecipeFinished h4, .cardRecipeFavorited h4 {
+  color: rgb(82, 82, 82);
+  font-size: 1rem;
+}
+
+.cardRecipeFinished span, .cardRecipeFavorited span {
+  font-size: 0.8rem;
+}
+
+.headerTop {
+  background-color: #fca311;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerFilterButtons {
+  background-color: #fca311;
+  border: 3px solid #fca311;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filterButtons {
+  background-color: #14213d;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  margin: 1px;
+  padding: 0 16px;
+  width: 116px;
+}
+
+.buttonSearch {
+  background-color: #14213d;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  height: 35px;
+  margin-left: 6px;
+  width: 95px;
+}
+
+.detailMeal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.detailImage {
+  height: 250px;
+  width: 360px;
+}
+
+.detailsTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -15px;
+  padding: 5px 15px;
+}
+
+.shareAndFavoriteImgs {
+  background-color: #e5e5e5;
+  border: none;
+}
+
+.recipe-category {
+  color: gray;
+}
+
+.exploreButtons {
+  font-size: 25px;
+  height: 82px;
+  width: 327px;
+}
+
+.mainFoodsAndDrinks {
+  margin-bottom: 52px;
+}
+
+.searchButton {
+  background-color: #fca311;
+  border: none;
+}
+
+.cardRecipeFinished button, .cardRecipeFavorited button {
+  background-color: rgba(128, 128, 128, 0.027);
+}
+
+.shareButton {
+  background-color: #e5e5e5;
+  border: none;
+}
+
+.categoriesBTNRecipesDone {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.bodyPadding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li {
+  line-height: 20px;
+}
+
+.marginCheckbox {
+  margin-right: 5px;
+}
+
+.emailLogad {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 12px;
+  width: 100vh;
+}
+
+.profile-email {
+  display: block;
+  text-align: end;
+}
+
+.profileIMG {
+  background-color: #e5e5e5;
+  margin-left: 3px;
+  width: 30px;
+}
+
+.firstLetter {
+  background-color: #14213d;
+  border-radius: 200px;
+  color: white;
+  margin-left: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .meals > .logo {
   animation: shake 1.5s infinite ease;
@@ -66,3 +317,4 @@
     transform: rotate(-10deg);
   }
 }
+
