@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto Receitas Campeãs!
+# ✌️ Boas vindas ao repositório do projeto Receitas Campeãs!
 
 O **Receitas Campeãs** é um projeto realizado em React.js que consiste em um aplicativo que possibilita buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks.
 
@@ -8,13 +8,13 @@ Seu layout tem como foco dispositivos móveis, portanto foi projetado com o conc
 
 ---
 
-# Visualização
+# 👀 Visualização
 
 ![gif do app funcionando](https://github.com/felipemuller20/recipes-app/blob/master/src/images/appReceitas.gif)
 
 ---
 
-# Tecnologias utilizadas
+# ⚛️ Tecnologias utilizadas
 
 - HTML
 - CSS
@@ -25,7 +25,7 @@ Seu layout tem como foco dispositivos móveis, portanto foi projetado com o conc
 
 ---
 
-# Habilidades desenvolvidas
+# ✍️ Habilidades desenvolvidas
 
 - Utilizar a Context API do React para gerenciar estados
 - Utilizar o React Hook useState
@@ -37,7 +37,7 @@ Além disso, neste projeto foi utilizado o ESLint, uma ferramenta para identific
 
 ---
 
-# Acessando o projeto
+# 👀 Acessando o projeto
 
 O deploy deste projeto foi realizado via Heroku, e pode ser acessado através [deste link](https://receitas-campeas.herokuapp.com/). **Lembre-se de que ele foi projetado para telas menores (mobile), portanto, para uma melhor visualização, seu acesso deve ser realizado através de um dispositivo móvel.**
 
@@ -49,7 +49,7 @@ Para executar o projeto no seu computador:
 
 ---
 
-# Agradecimentos especiais
+# 👥 Agradecimentos especiais
 
 Este projeto foi realizado em conjunto com os amigos [André Barroso](https://www.linkedin.com/in/andrebarroso1/), [Michael Peterson](https://www.linkedin.com/in/michael-petterson/) e [Tiago Santos](https://www.linkedin.com/in/tiago-nogueira-dos-santos/). Todos participaram ativamente do início ao fim do projeto. 
 
