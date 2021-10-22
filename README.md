@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto Receitas Campeãs!
 
-O **Receitas Campeãs** é um projeto realizado em React.js que consiste em um aplicativo que a pessoa usuária poderá ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks.
+O **Receitas Campeãs** é um projeto realizado em React.js que consiste em um aplicativo que possibilita buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks.
 
 Como base de dados, foram utilizadas duas APIs (uma para bebidas e outra para comidas).
 
