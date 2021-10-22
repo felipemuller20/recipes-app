@@ -49,10 +49,16 @@ Para executar o projeto no seu computador:
 
 ---
 
-# 👥 Agradecimentos especiais
+# 💚 Agradecimentos especiais
 
 Este projeto foi realizado em conjunto com os amigos [André Barroso](https://www.linkedin.com/in/andrebarroso1/), [Michael Peterson](https://www.linkedin.com/in/michael-petterson/) e [Tiago Santos](https://www.linkedin.com/in/tiago-nogueira-dos-santos/). Todos participaram ativamente do início ao fim do projeto. 
 
 Sem dúvidas fortalecemos muito nosso senso de trabalho em equipe e, hoje, após este projeto, guardo um carinho enorme por todos eles.
 
 **OBS:** O nome do aplicativo foi uma homenagem carinhosa ao **Michael Peterson**, o nosso Mike.
+
+# 👥 Autores
+- [Felipe Muller](https://github.com/felipemuller20)
+- [André Barroso](https://github.com/AndreBarroso)
+- [Michael Peterson](https://github.com/michael-petterson-06)
+- [Tiago Santos](https://github.com/tiagobalsas)
